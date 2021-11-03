@@ -2,17 +2,16 @@ my_string = str(input("Введите вашу строчку"))
 print(my_string)
 # Input нужен для ввода текста с клавиатуры,поскольку у нас строка указываем строковый тип данных
 
-program_string = "Вы написали в свою строку {}".format(my_string)
+program_string = f"Вы написали {my_string} в  свою строку "
 
 print(program_string)
 
 # Выводим нашу измененную строчку на экран
 
-my_string = "замена в строке"
-
-program_string = "Вы заменили свою строку на {}".format(my_string)
+program_string = program_string.replace(my_string,"Новая строка")
 
 print(program_string)
+
 
 print(len(program_string))
 
