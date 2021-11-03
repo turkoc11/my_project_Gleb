@@ -8,7 +8,7 @@ print(program_string)
 
 # Выводим нашу измененную строчку на экран
 
-program_string = program_string.replace(my_string,"Новая строка")
+program_string = program_string.replace(my_string, "Новая строка")
 
 print(program_string)
 
